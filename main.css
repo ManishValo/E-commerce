@@ -1,0 +1,149 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 0rem 1rem;
+    position: sticky;
+    top: 0;
+}
+#left{
+    /* background-color: greenyellow; */
+}
+
+#left>h2{
+    color: yellow;
+    font-size: 1.5rem;
+}
+#left>h2>a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.5rem;
+}
+#cent{
+    /* background-color: orange; */
+}
+#cent>ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 7rem;
+}
+#cent>ul>li>a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: block;
+}
+#cent>ul>li>a:hover{
+    color: black;
+    background-color: orange;
+    /* background-color: white; */
+}
+#right{
+    /* background-color: azure; */
+}
+#right button{
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    color: rgb(15, 19, 5);
+}
+#right button:active{
+    background-color: white;
+    color: black;
+}
+#right>span{
+    /* background-color: white; */
+}
+
+.design>div{
+    /* width: 25%; ---after remove */
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+.design>div>img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+
+}
+.design>div>h3{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.design>div>h2{
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.design>div>button{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(15, 248, 217);
+    border-radius: 5px;
+    color: brown;
+    /* margin-bottom: 1rem; */
+    /* margin-left: 0.9rem; */
+    /* margin-top: 1rem; */
+}
+.design>div>button:active{
+    background-color: greenyellow;
+    color: red;
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+#search{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#search>input{
+    padding:0.5rem
+}
+#search>button{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: rgb(138, 250, 250);
+    cursor: pointer;
+    margin-left: 1rem;
+}
+#search>button:active{
+    background-color: white;
+    color: black;
+    
+}
+
+#cart-cont{
+    position: relative;
+}
+.fa-cart-plus{
+    font-size: 1.5rem;
+    color: white;
+}
+#count{
+    color: orange;
+    font-size: 3rem;
+    position:absolute;
+    /* top: -40%; */
+    top: -74%;
+    /* right: 32%; */
+    right: -99%;
+}
